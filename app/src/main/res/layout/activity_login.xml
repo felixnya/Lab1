@@ -19,21 +19,21 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:hint="login name"
+        android:id="@+id/editTextLogin"
+        android:hint="@string/Hint1"
         android:inputType="textEmailAddress"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText2"
-        android:hint="Password"
+        android:hint="@string/Hint2"
         android:inputType="textPassword"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Next_Activity"
+        android:text="@string/Text1"
         android:id="@+id/button3"
         android:layout_gravity="right" />
 

@@ -9,4 +9,10 @@
     <string name="button2">Button 2</string>
     <string name="switch1">Enable Something</string>
     <string name="Lab2Title">Lab2</string>
+    <string name="dialog_message">Do you wish to finish this activity?</string>
+    <string name="dialog_title">Lab2 Checkbox title</string>
+    <string name="ok">ok button</string>
+    <string name="cancel">Cancel Button</string>
+    <string name="Hint1">UserName</string>
+    <string name="Hint2">Password</string>
 </resources>
