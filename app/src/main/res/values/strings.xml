@@ -15,4 +15,5 @@
     <string name="cancel">Cancel Button</string>
     <string name="Hint1">UserName</string>
     <string name="Hint2">Password</string>
+    <string name="StartChat">Start Chat</string>
 </resources>

@@ -14,6 +14,7 @@ public class StartActivity extends AppCompatActivity {
 
     public static final int REQUEST_CODE = 5;
     Button b1;
+    Button b2;
 
     Context context = this;
     Toast toast;
@@ -25,6 +26,18 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         Button next = (Button) findViewById(R.id.button);
+
+        Button startChat = (Button) findViewById(R.id.button2);
+
+        startChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i("Start Activity", "User clicked start chat");
+                Intent ffs = new Intent(getApplicationContext(),ChatWindow.class);
+                startActivity(ffs);
+            }
+        });
+
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

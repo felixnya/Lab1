@@ -48,7 +48,7 @@ public class ListItemsActivity extends AppCompatActivity {
                         .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                            // ok button
+                                // ok button
                                 Intent resultIntent = new Intent();
                                 resultIntent.putExtra("Response", "My info to share");
                                 setResult(Activity.RESULT_OK, resultIntent);
@@ -80,7 +80,7 @@ public class ListItemsActivity extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            dispatchTakePictureIntent();
+                dispatchTakePictureIntent();
             }
         });
 
